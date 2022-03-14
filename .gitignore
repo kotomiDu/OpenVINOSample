@@ -1,0 +1,7 @@
+x64
+.vs
+
+#opencv
+
+third-party/opencv/bin
+third-party/opencv/lib
