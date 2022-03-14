@@ -1,7 +1,13 @@
 x64
 .vs
+*CMakeLists*
 
 #opencv
 
 third-party/opencv/bin
 third-party/opencv/lib
+
+#model
+
+*caffemodel
+*prototxt*
