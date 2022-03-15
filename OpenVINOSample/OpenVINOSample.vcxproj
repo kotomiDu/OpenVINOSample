@@ -158,7 +158,7 @@ xcopy $(SolutionDir)third-party\opencv\selected_bin\opencv_imgcodecs452d.dll ..\
 xcopy $(SolutionDir)third-party\openvino\bin\intel64\Release\openvino_intel_cpu_plugin.dll ..\X64\Release\ /y
 xcopy $(SolutionDir)third-party\openvino\bin\intel64\Release\openvino_ir_frontend.dll ..\X64\Release\ /y
 xcopy $(SolutionDir)third-party\openvino\bin\intel64\Release\plugins.xml ..\X64\Release\ /y
-xcopy $(SolutionDir)third-party\tbb\bin\tbb.dll ..\X64\Debug\ /y
+xcopy $(SolutionDir)third-party\tbb\bin\tbb.dll ..\X64\Release\ /y
 xcopy $(SolutionDir)third-party\opencv\selected_bin\opencv_core452.dll ..\X64\Release\ /y
 xcopy $(SolutionDir)third-party\opencv\selected_bin\opencv_imgproc452.dll ..\X64\Release\ /y
 xcopy $(SolutionDir)third-party\opencv\selected_bin\opencv_imgcodecs452.dll ..\X64\Release\ /y</Command>
