@@ -40,6 +40,9 @@ int tmain(int argc, tchar* argv[]) {
         // -------- Step 1. Initialize OpenVINO Runtime Core --------
         ov::Core core;
 
+        //set thread property if needed
+        core.set_property("CPU", ov::inference_num_threads(2));
+
         // -------- Step 2. Read a model --------
         slog::info << "Loading model files: " << model_path << slog::endl;
         std::shared_ptr<ov::Model> model = core.read_model(model_path);
