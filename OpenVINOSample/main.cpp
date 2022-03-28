@@ -117,7 +117,7 @@ int tmain(int argc, tchar* argv[]) {
         const ov::Tensor& output_tensor = infer_request.get_output_tensor();
 
         // Print classification results
-        ClassificationResult classification_result(output_tensor, { image_path });
+        ClassificationResult classification_result(output_tensor, { image_path }, 1, 1);
         classification_result.show();
         // -----------------------------------------------------------------------------------------------------
     }
